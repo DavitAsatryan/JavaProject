@@ -47,10 +47,10 @@ public class MenuActivity extends AppCompatActivity {
         intent.putExtra("email", email);
         startActivity(intent);
     }
-    public void clickPhoneData(View view) {
+   /* public void clickPhoneData(View view) {
         String phone = intent.getStringExtra("phone");
         intent = new Intent(this, NameActivity.class);
         intent.putExtra("phone", phone);
         startActivity(intent);
-    }
+    }*/
 }
